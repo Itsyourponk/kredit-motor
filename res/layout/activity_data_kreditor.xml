@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/LinearLayout1"
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:layout_gravity="center" 
+android:orientation="vertical" 
+tools:context=".DataKreditorActivity"
+ >
+<TextView
+android:id="@+id/textView1" 
+android:layout_width="match_parent" 
+android:layout_height="50dp" 
+android:gravity="center" 
+android:text="Data Kreditor"
+ />
+<Button
+android:id="@+id/btTambahKreditor" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:layout_gravity="center" 
+android:onClick="KlikbtTambahKreditor" 
+android:text="Tambah Data Kreditor" />
+ 
+
+<Button
+android:id="@+id/btRefreshDataKreditor" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:onClick="KlikbtRefreshDataKreditor" 
+android:text="Refresh" />
+
+<HorizontalScrollView 
+    android:id="@+id/horizontalScrollView" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:layout_gravity="top" >
+<ScrollView
+android:id="@+id/verticalScrollView" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:layout_gravity="top" >
+<TableLayout
+android:id="@+id/tbKreditor" 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:layout_marginTop="1dp" >
+</TableLayout>
+</ScrollView>
+</HorizontalScrollView>
+
+</LinearLayout>

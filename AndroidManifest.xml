@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pr_kredit_irfansm_ti26_"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.TransaksiActivity"
+            android:label="@string/title_activity_transaksi" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.DataPetugasActivity"
+            android:label="@string/title_activity_data_petugas" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.DataKreditorActivity"
+            android:label="@string/title_activity_data_kreditor" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.DataMotorActivity"
+            android:label="@string/title_activity_data_motor" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.PengajuanKreditActivity"
+            android:label="@string/title_activity_pengajuan_kredit" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.PembayaranAngsuranActivity"
+            android:label="@string/title_activity_pembayaran_angsuran" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.DataPengajuanKreditActivity"
+            android:label="@string/title_activity_data_pengajuan_kredit" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.DataPembayaranAngsuran"
+            android:label="@string/title_activity_data_pembayaran_angsuran" >
+        </activity>
+        <activity
+            android:name="com.example.pr_kredit_irfansm_ti26_.DataPengajuanKredit"
+            android:label="@string/title_activity_data_pengajuan_kredit" >
+        </activity>
+    </application>
+
+</manifest>
